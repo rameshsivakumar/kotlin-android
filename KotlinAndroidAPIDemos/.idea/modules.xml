@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KotlinSamples.iml" filepath="$PROJECT_DIR$/KotlinSamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinAndroidAPIDemos.iml" filepath="$PROJECT_DIR$/KotlinAndroidAPIDemos.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
