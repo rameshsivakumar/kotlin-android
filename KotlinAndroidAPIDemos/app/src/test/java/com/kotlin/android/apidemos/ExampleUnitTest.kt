@@ -1,4 +1,4 @@
-package com.example.prokarma.kotlinprogramming
+package com.kotlin.android.apidemos
 
 import org.junit.Test
 

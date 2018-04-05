@@ -1,4 +1,4 @@
-package com.example.prokarma.kotlinprogramming
+package com.kotlin.android.apidemos
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.example.prokarma.kotlinprogramming", appContext.packageName)
+        assertEquals("com.kotlin.android.apidemos", appContext.packageName)
     }
 }
