@@ -5,6 +5,6 @@ android:id="@+id/rv_androidFeatureList"
 android:padding="8dp"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context="com.kotlin.android.apidemos.MainActivity">
+tools:context="com.kotlin.android.apidemos.FeatureListActivity">
 
 </android.support.v7.widget.RecyclerView>

@@ -1,28 +1,30 @@
 package com.kotlin.android.apidemos
 
+import android.content.Context
+
 /**
  * @author Ramesh Siva Kumar
  */
 data class Feature(val title: String, val description: String)
 
-fun getFeatureList(): List<Feature> {
+fun getFeatureList(context: Context): List<Feature> {
     return listOf(
-                Feature("UIWidgets",
-                        "UI Widgets/Controls demo using Kotlin"),
-                Feature("MultiThreading",
-                        "MultiThreading demo using Kotlin"
+                Feature( context.getString(R.string.ui_widgets),
+                        context.getString(R.string.ui_widgets_desc)),
+                Feature(context.getString(R.string.multi_threading),
+                        context.getString(R.string.multi_threading_desc)
                         ),
-                Feature("Data Storage",
-                        "Data Storage demo using Kotlin"
+                Feature(context.getString(R.string.data_storage),
+                        context.getString(R.string.data_storage_desc)
                         ),
-                Feature("Http Networking",
-                        "Http Networking demo using Kotlin"
+                Feature(context.getString(R.string.http_networking),
+                        context.getString(R.string.http_networking_desc)
                         ),
-                Feature("Application Components",
-                        "Application Components demo using Kotlin"
+                Feature(context.getString(R.string.app_components),
+                        context.getString(R.string.app_components_desc)
                         ),
-                Feature("Material Design",
-                        "Material Design demo using Kotlin"
+                Feature(context.getString(R.string.material_design),
+                        context.getString(R.string.material_design_desc)
                         )
     )
 }
